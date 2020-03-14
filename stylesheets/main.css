@@ -1,0 +1,108 @@
+body {
+  font-family: ;
+  font-size: 12px;
+}
+
+.banner {
+  animation: changecolor 5s 2;
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+@keyframes changecolor {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+.banner h1{
+  font-size: 30px;
+}
+
+.banner a {
+  color: white;
+  font-size: 18px;
+  padding-top: .8em;
+}
+
+.navbar{
+  padding: 1em;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: white;
+  padding: .5em;
+  font-size: 18px;
+}
+
+.main img {
+  height: 525px;
+  width: 1000px;
+}
+
+.container {
+  display: flex;
+  padding-top: 2em;
+  padding-right: 1em;
+  padding-left: 4em;
+}
+
+.text h1 {
+  font-weight: bold;
+  font-size: 27px;
+  padding-bottom: 20px;
+}
+
+.text {
+  font-size: 17px;
+  padding: 15px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+}
+
+.text p {
+  padding-bottom: 20px;
+  padding-right: 80px;
+}
+
+.sideimages img {
+  height: 200px;
+  width: 200px;
+  padding-bottom: 4em;
+}
+
+@keyframes mymove {
+  to {height: 350px;
+      width: 350px;
+    }
+}
+
+.sideimages img:hover {
+  animation: mymove 1.5s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  transition-duration: 1.5s;
+}
+
+.image h3 {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.footer p {
+  padding: 2em;
+  color: white;
+  background-color: black;
+  font-size: 17px;
+}
+
+.footercontainer {
+  padding-left: 1.5em;
+}
